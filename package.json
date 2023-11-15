@@ -1,0 +1,26 @@
+{
+  "name": "xcodebackend",
+  "version": "1.0.0",
+  "description": "Backend Server for Xcode Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMcKillaGorilla/XCodeBackEnd.git"
+  },
+  "author": "VIP B.E.A.R Team : Xcode Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMcKillaGorilla/XCodeBackEnd/issues"
+  },
+  "homepage": "https://github.com/TheMcKillaGorilla/XCodeBackEnd#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
+}
